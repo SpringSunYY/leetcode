@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="505747bf-33e9-4057-afa1-db7bdb7cb983" name="Changes" comment="yy">
-      <change afterPath="$PROJECT_DIR$/src/greenhand/IsPowerOfTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/greenhand/ThreeSumClosest.java" afterDir="false" />
+    <list default="true" id="505747bf-33e9-4057-afa1-db7bdb7cb983" name="Changes" comment="20221114 20点08分">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/greenhand/PlusOne.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/greenhand/IsPowerOfTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/greenhand/IsPowerOfTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/greenhand/ThreeSumClosest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/greenhand/ThreeSumClosest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,23 +34,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/JavaWeb/java/leetcode/leetcode&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/JavaWeb/java/leetcode/leetcode",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\JavaWeb\java\leetcode\leetcode\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IsPowerOfTwo">
+  <component name="RunManager" selected="Application.PlusOne">
     <configuration name="IsPowerOfTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="greenhand.IsPowerOfTwo" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="greenhand.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlusOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="greenhand.PlusOne" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -71,10 +93,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PlusOne.plusOne" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="greenhand.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="greenhand" />
+      <option name="MAIN_CLASS_NAME" value="greenhand.PlusOne" />
+      <option name="METHOD_NAME" value="plusOne" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.IsPowerOfTwo" />
+        <item itemvalue="Application.PlusOne" />
+        <item itemvalue="TestNG.PlusOne.plusOne" />
         <item itemvalue="Application.ThreeSumClosest" />
+        <item itemvalue="Application.IsPowerOfTwo" />
       </list>
     </recent_temporary>
   </component>
@@ -90,7 +132,9 @@
       <workItem from="1668193174592" duration="55000" />
       <workItem from="1668193246140" duration="486000" />
       <workItem from="1668340045560" duration="9745000" />
-      <workItem from="1668424400426" duration="2616000" />
+      <workItem from="1668424400426" duration="2868000" />
+      <workItem from="1668446109851" duration="1288000" />
+      <workItem from="1668510388444" duration="4926000" />
     </task>
     <task id="LOCAL-00001" summary="yy">
       <created>1668186941826</created>
@@ -106,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668187001652</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="20221114 20点08分">
+      <created>1668427730408</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668427730408</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,7 +176,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="yy" />
-    <option name="LAST_COMMIT_MESSAGE" value="yy" />
+    <MESSAGE value="20221114 20点08分" />
+    <option name="LAST_COMMIT_MESSAGE" value="20221114 20点08分" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
