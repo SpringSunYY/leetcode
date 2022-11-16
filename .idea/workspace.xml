@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="505747bf-33e9-4057-afa1-db7bdb7cb983" name="Changes" comment="20221114 20点08分">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/greenhand/PlusOne.java" afterDir="false" />
+    <list default="true" id="505747bf-33e9-4057-afa1-db7bdb7cb983" name="Changes" comment="20221115 20点44分">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/dataStructure/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/dataStructure/comparable/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/dataStructure/comparable/test/TestComparable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/dataStructure/sort/bubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/greenhand/IsPowerOfTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/greenhand/IsPowerOfTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/greenhand/ThreeSumClosest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/greenhand/ThreeSumClosest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,13 +36,16 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2HPUUnIgbqPUPs1tVvkunAkkQkm" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "Downloaded.Files.Path.Enabled": "false",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -44,6 +54,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
     "last_opened_file_path": "E:/JavaWeb/java/leetcode/leetcode",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
@@ -53,20 +64,7 @@
       <recent name="E:\JavaWeb\java\leetcode\leetcode\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PlusOne">
-    <configuration name="IsPowerOfTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="greenhand.IsPowerOfTwo" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="greenhand.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.bubbleSort">
     <configuration name="PlusOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="greenhand.PlusOne" />
       <module name="leetcode" />
@@ -80,12 +78,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestComparable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructure.comparable.test.TestComparable" />
+      <module name="dataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dataStructure.comparable.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ThreeSumClosest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="greenhand.ThreeSumClosest" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="greenhand.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructure.sort.bubbleSort" />
+      <module name="dataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dataStructure.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,10 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.bubbleSort" />
+        <item itemvalue="Application.TestComparable" />
         <item itemvalue="Application.PlusOne" />
         <item itemvalue="TestNG.PlusOne.plusOne" />
         <item itemvalue="Application.ThreeSumClosest" />
-        <item itemvalue="Application.IsPowerOfTwo" />
       </list>
     </recent_temporary>
   </component>
@@ -134,7 +159,8 @@
       <workItem from="1668340045560" duration="9745000" />
       <workItem from="1668424400426" duration="2868000" />
       <workItem from="1668446109851" duration="1288000" />
-      <workItem from="1668510388444" duration="4926000" />
+      <workItem from="1668510388444" duration="5797000" />
+      <workItem from="1668586362008" duration="2144000" />
     </task>
     <task id="LOCAL-00001" summary="yy">
       <created>1668186941826</created>
@@ -157,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668427730408</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="20221115 20点44分">
+      <created>1668516288502</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668516288502</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,9 +208,11 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="yy" />
     <MESSAGE value="20221114 20点08分" />
-    <option name="LAST_COMMIT_MESSAGE" value="20221114 20点08分" />
+    <MESSAGE value="20221115 20点44分" />
+    <option name="LAST_COMMIT_MESSAGE" value="20221115 20点44分" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
