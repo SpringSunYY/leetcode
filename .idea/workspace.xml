@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="505747bf-33e9-4057-afa1-db7bdb7cb983" name="Changes" comment="20221115 20点44分">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/dataStructure/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/dataStructure/comparable/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/dataStructure/comparable/test/TestComparable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/dataStructure/sort/bubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="505747bf-33e9-4057-afa1-db7bdb7cb983" name="Changes" comment="20221116 16点51分">
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/dataStructure/sort/selectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/greenhand/AddDigits.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +22,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -56,6 +54,7 @@
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
     "last_opened_file_path": "E:/JavaWeb/java/leetcode/leetcode",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
@@ -64,7 +63,20 @@
       <recent name="E:\JavaWeb\java\leetcode\leetcode\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.bubbleSort">
+  <component name="RunManager" selected="Application.AddDigits">
+    <configuration name="AddDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="greenhand.AddDigits" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="greenhand.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PlusOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="greenhand.PlusOne" />
       <module name="leetcode" />
@@ -91,19 +103,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreeSumClosest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="greenhand.ThreeSumClosest" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="greenhand.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="bubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dataStructure.sort.bubbleSort" />
       <module name="dataStructure" />
@@ -117,31 +116,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlusOne.plusOne" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
+    <configuration name="selectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructure.sort.selectionSort" />
+      <module name="dataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="greenhand.*" />
+          <option name="PATTERN" value="dataStructure.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="greenhand" />
-      <option name="MAIN_CLASS_NAME" value="greenhand.PlusOne" />
-      <option name="METHOD_NAME" value="plusOne" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AddDigits" />
+        <item itemvalue="Application.selectionSort" />
         <item itemvalue="Application.bubbleSort" />
         <item itemvalue="Application.TestComparable" />
         <item itemvalue="Application.PlusOne" />
-        <item itemvalue="TestNG.PlusOne.plusOne" />
-        <item itemvalue="Application.ThreeSumClosest" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +154,7 @@
       <workItem from="1668424400426" duration="2868000" />
       <workItem from="1668446109851" duration="1288000" />
       <workItem from="1668510388444" duration="5797000" />
-      <workItem from="1668586362008" duration="2144000" />
+      <workItem from="1668586362008" duration="6710000" />
     </task>
     <task id="LOCAL-00001" summary="yy">
       <created>1668186941826</created>
@@ -190,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668516288502</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="20221116 16点51分">
+      <created>1668588708271</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668588708271</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,7 +213,8 @@
     <MESSAGE value="yy" />
     <MESSAGE value="20221114 20点08分" />
     <MESSAGE value="20221115 20点44分" />
-    <option name="LAST_COMMIT_MESSAGE" value="20221115 20点44分" />
+    <MESSAGE value="20221116 16点51分" />
+    <option name="LAST_COMMIT_MESSAGE" value="20221116 16点51分" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
