@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="505747bf-33e9-4057-afa1-db7bdb7cb983" name="Changes" comment="20221117 20点18分">
-      <change afterPath="$PROJECT_DIR$/src/greenhand/FindRepeatNumber.java" afterDir="false" />
+    <list default="true" id="505747bf-33e9-4057-afa1-db7bdb7cb983" name="Changes" comment="20221118 20点04分">
+      <change afterPath="$PROJECT_DIR$/src/greenhand/MissingNumber2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/greenhand/MissingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/greenhand/MissingNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +62,7 @@
       <recent name="E:\JavaWeb\java\leetcode\leetcode\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThreeSumClosest">
+  <component name="RunManager" selected="Application.MissingNumber2">
     <configuration name="AddDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="greenhand.AddDigits" />
       <module name="leetcode" />
@@ -103,6 +102,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MissingNumber2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="greenhand.MissingNumber2" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="greenhand.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ThreeSumClosest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="greenhand.ThreeSumClosest" />
       <module name="leetcode" />
@@ -116,26 +128,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="selectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructure.sort.selectionSort" />
-      <module name="dataStructure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dataStructure.sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MissingNumber2" />
         <item itemvalue="Application.ThreeSumClosest" />
         <item itemvalue="Application.MaximumProduct" />
         <item itemvalue="Application.IsPowerOfTwo" />
         <item itemvalue="Application.AddDigits" />
-        <item itemvalue="Application.selectionSort" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +156,8 @@
       <workItem from="1668586362008" duration="8981000" />
       <workItem from="1668683895956" duration="3871000" />
       <workItem from="1668708328909" duration="189000" />
-      <workItem from="1668770631153" duration="1522000" />
+      <workItem from="1668770631153" duration="2005000" />
+      <workItem from="1668857327773" duration="1608000" />
     </task>
     <task id="LOCAL-00001" summary="yy">
       <created>1668186941826</created>
@@ -208,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668687513192</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="20221118 20点04分">
+      <created>1668773108270</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1668773108270</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,7 +240,8 @@
     <MESSAGE value="20221116 16点51分" />
     <MESSAGE value="20221116 19点49分" />
     <MESSAGE value="20221117 20点18分" />
-    <option name="LAST_COMMIT_MESSAGE" value="20221117 20点18分" />
+    <MESSAGE value="20221118 20点04分" />
+    <option name="LAST_COMMIT_MESSAGE" value="20221118 20点04分" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
