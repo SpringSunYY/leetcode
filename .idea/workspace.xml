@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="505747bf-33e9-4057-afa1-db7bdb7cb983" name="Changes" comment="20221119 20点00分">
-      <change afterPath="$PROJECT_DIR$/src/difficult/FindMedianSortedArrays.java" afterDir="false" />
+    <list default="true" id="505747bf-33e9-4057-afa1-db7bdb7cb983" name="Changes" comment="20221120 20点30分">
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/dataStructure/sort/Insertion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/dataStructure/sort/Shell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/medium/FindKthLargest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +65,20 @@
       <recent name="E:\JavaWeb\java\leetcode\leetcode\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindMedianSortedArrays">
+  <component name="RunManager" selected="Application.FindKthLargest">
+    <configuration name="FindKthLargest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="medium.FindKthLargest" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FindMedianSortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="difficult.FindMedianSortedArrays" />
       <module name="leetcode" />
@@ -76,25 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsPowerOfTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="greenhand.IsPowerOfTwo" />
-      <module name="leetcode" />
+    <configuration name="Insertion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructure.sort.Insertion" />
+      <module name="dataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="greenhand.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaximumProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="greenhand.MaximumProduct" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="greenhand.*" />
+          <option name="PATTERN" value="dataStructure.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreeSumClosest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="greenhand.ThreeSumClosest" />
-      <module name="leetcode" />
+    <configuration name="Shell" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructure.sort.Shell" />
+      <module name="dataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="greenhand.*" />
+          <option name="PATTERN" value="dataStructure.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindKthLargest" />
+        <item itemvalue="Application.Shell" />
+        <item itemvalue="Application.Insertion" />
         <item itemvalue="Application.FindMedianSortedArrays" />
         <item itemvalue="Application.MissingNumber2" />
-        <item itemvalue="Application.ThreeSumClosest" />
-        <item itemvalue="Application.MaximumProduct" />
-        <item itemvalue="Application.IsPowerOfTwo" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +162,9 @@
       <workItem from="1668770631153" duration="2005000" />
       <workItem from="1668857327773" duration="2781000" />
       <workItem from="1668885191832" duration="11000" />
-      <workItem from="1668943868293" duration="3528000" />
+      <workItem from="1668943868293" duration="3771000" />
+      <workItem from="1669014083095" duration="5249000" />
+      <workItem from="1669116153381" duration="1904000" />
     </task>
     <task id="LOCAL-00001" summary="yy">
       <created>1668186941826</created>
@@ -224,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668859215276</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="20221120 20点30分">
+      <created>1668947508771</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1668947508771</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,7 +263,8 @@
     <MESSAGE value="20221117 20点18分" />
     <MESSAGE value="20221118 20点04分" />
     <MESSAGE value="20221119 20点00分" />
-    <option name="LAST_COMMIT_MESSAGE" value="20221119 20点00分" />
+    <MESSAGE value="20221120 20点30分" />
+    <option name="LAST_COMMIT_MESSAGE" value="20221120 20点30分" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
