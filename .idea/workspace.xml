@@ -4,12 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="505747bf-33e9-4057-afa1-db7bdb7cb983" name="Changes" comment="20221120 20点30分">
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/dataStructure/sort/Insertion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/dataStructure/sort/Shell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/medium/FindKthLargest.java" afterDir="false" />
+    <list default="true" id="505747bf-33e9-4057-afa1-db7bdb7cb983" name="Changes" comment="20221122 20点30分">
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/dataStructure/linearList/SequenceList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/dataStructure/sort/Merge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/dataStructure/sort/Quickly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/linkedList/DoubleLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/linkedList/LinkList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/linkedList/list.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy/ContainsDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy/SearchInsert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/medium/LargestNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataStructure/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,9 +71,22 @@
       <recent name="E:\JavaWeb\java\leetcode\leetcode\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindKthLargest">
-    <configuration name="FindKthLargest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="medium.FindKthLargest" />
+  <component name="RunManager" selected="Application.SearchInsert">
+    <configuration name="DoubleLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedList.DoubleLinkedList" />
+      <module name="dataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LargestNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="medium.LargestNumber" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -79,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindMedianSortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="difficult.FindMedianSortedArrays" />
-      <module name="leetcode" />
+    <configuration name="LinkList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedList.LinkList" />
+      <module name="dataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="difficult.*" />
+          <option name="PATTERN" value="linkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,8 +111,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Insertion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructure.sort.Insertion" />
+    <configuration name="Quickly" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructure.sort.Quickly" />
       <module name="dataStructure" />
       <extension name="coverage">
         <pattern>
@@ -105,25 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MissingNumber2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="greenhand.MissingNumber2" />
+    <configuration name="SearchInsert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.SearchInsert" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="greenhand.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Shell" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructure.sort.Shell" />
-      <module name="dataStructure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dataStructure.sort.*" />
+          <option name="PATTERN" value="easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FindKthLargest" />
-        <item itemvalue="Application.Shell" />
-        <item itemvalue="Application.Insertion" />
-        <item itemvalue="Application.FindMedianSortedArrays" />
-        <item itemvalue="Application.MissingNumber2" />
+        <item itemvalue="Application.SearchInsert" />
+        <item itemvalue="Application.DoubleLinkedList" />
+        <item itemvalue="Application.LinkList" />
+        <item itemvalue="Application.Quickly" />
+        <item itemvalue="Application.LargestNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +170,16 @@
       <workItem from="1668885191832" duration="11000" />
       <workItem from="1668943868293" duration="3771000" />
       <workItem from="1669014083095" duration="5249000" />
-      <workItem from="1669116153381" duration="1904000" />
+      <workItem from="1669116153381" duration="1935000" />
+      <workItem from="1669192650279" duration="8379000" />
+      <workItem from="1669223444808" duration="642000" />
+      <workItem from="1669271052004" duration="2145000" />
+      <workItem from="1669280227185" duration="3305000" />
+      <workItem from="1669289838127" duration="4170000" />
+      <workItem from="1669294335521" duration="7019000" />
+      <workItem from="1669311050628" duration="523000" />
+      <workItem from="1669334426847" duration="11000" />
+      <workItem from="1669363686215" duration="8975000" />
     </task>
     <task id="LOCAL-00001" summary="yy">
       <created>1668186941826</created>
@@ -236,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668947508771</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="20221122 20点30分">
+      <created>1669118805011</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1669118805011</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,7 +286,38 @@
     <MESSAGE value="20221118 20点04分" />
     <MESSAGE value="20221119 20点00分" />
     <MESSAGE value="20221120 20点30分" />
-    <option name="LAST_COMMIT_MESSAGE" value="20221120 20点30分" />
+    <MESSAGE value="20221122 20点30分" />
+    <option name="LAST_COMMIT_MESSAGE" value="20221122 20点30分" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/easy/SearchInsert.java</url>
+          <line>20</line>
+          <properties class="easy.SearchInsert" method="searchInsert">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/easy/SearchInsert.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/easy/SearchInsert.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/easy/SearchInsert.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
