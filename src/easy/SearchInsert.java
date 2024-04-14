@@ -36,7 +36,7 @@ public class SearchInsert {
      */
     public static int insert(int[] a, int h) {
         for (int i = 0; i < a.length ; i++) {
-            if (a[i] > h ) {
+            if (a[i] >= h ) {
                 return i;
             }
         }

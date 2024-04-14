@@ -1,6 +1,5 @@
 package greenhand;
 
-import org.testng.annotations.Test;
 
 /*
 66. º”“ª
