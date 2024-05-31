@@ -14,25 +14,66 @@ import java.util.List;
  */
 public class Solution2 {
 
-    public static void main(String[] args) {
-
-    }
-    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-
-
-    }
-
-    public class ListNode {
-        int val;
-        ListNode next;
-        ListNode() {
+    /**
+     * 用于将两个表示非负整数的链表相加并返回结果的链表
+     *
+     * @param l1 第一个链表
+     * @param l2 第二个链表
+     * @return 表示和的链表
+     */
+    public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+        // 创建一个虚拟头节点
+        ListNode dummyHead = new ListNode(0);
+        // 初始化两个指针p和q，以及当期节点curr
+        ListNode p = l1, q = l2, curr = dummyHead;
+        // 初始化进位carry为0
+        int carry = 0;
+        // 循环直到两个链表都到末尾
+        while (p != null || q != null) {
+            // 获取当前节点的值，如果节点为空则值为0
+            int x = (p != null) ? p.val : 0;
+            int y = (q != null) ? q.val : 0;
+            // 计算当前节点的和以及进位
+            int sum = carry + x + y;
+            carry = sum / 10;
+            // 创建新节点，并将当前节点指向新节点
+            curr.next = new ListNode(sum % 10);
+            curr = curr.next;
+            // 移动指针到下一个节点
+            if (p != null) {
+                p = p.next;
+            }
+            if (q != null) {
+                q = q.next;
+            }
         }
-        ListNode(int val) {
-            this.val = val;
+        // 如果还有进位，则添加一个新节点
+        if (carry > 0) {
+            curr.next = new ListNode(carry);
         }
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
+        // 返回虚拟头节点的下一个节点，即相加后的链表头节点
+        return dummyHead.next;
     }
+
+static class ListNode {
+    int val;
+    ListNode next;
+
+    ListNode() {
+    }
+
+    ListNode(int val) {
+        this.val = val;
+    }
+
+    ListNode(int val, ListNode next) {
+        this.val = val;
+        this.next = next;
+    }
+}
+
+public static void main(String[] args) {
+    ListNode listNode = addTwoNumbers(new ListNode(2, new ListNode(4, new ListNode(3))), new ListNode(5, new ListNode(6, new ListNode(4))));
+    System.out.println("listNode = " + listNode);
+}
 }
