@@ -7,7 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="505747bf-33e9-4057-afa1-db7bdb7cb983" name="Changes" comment="20240813,第十题" />
+    <list default="true" id="505747bf-33e9-4057-afa1-db7bdb7cb983" name="Changes" comment="20240813,第十题">
+      <change afterPath="$PROJECT_DIR$/src/easy/Solution13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,6 +70,7 @@
     "Application.Solution.executor": "Debug",
     "Application.Solution10.executor": "Run",
     "Application.Solution1103.executor": "Run",
+    "Application.Solution13.executor": "Run",
     "Application.Solution2.executor": "Debug",
     "Application.Solution21.executor": "Run",
     "Application.Solution3.executor": "Run",
@@ -93,7 +98,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "settings.editor.selected.configurable": "File.Encoding",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -102,7 +107,7 @@
       <recent name="E:\JavaWeb\java\leetcode\leetcode\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution10">
+  <component name="RunManager" selected="Application.Solution13">
     <configuration name="Solution10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="greenhand.Solution10" />
       <module name="leetcode" />
@@ -129,8 +134,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.Solution21" />
+    <configuration name="Solution13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.Solution13" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -142,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="medium.Solution6" />
+    <configuration name="Solution21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.Solution21" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="medium.*" />
+          <option name="PATTERN" value="easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution13" />
         <item itemvalue="Application.Solution10" />
         <item itemvalue="Application.Solution8" />
         <item itemvalue="Application.Solution1103" />
         <item itemvalue="Application.Solution21" />
-        <item itemvalue="Application.Solution6" />
       </list>
     </recent_temporary>
   </component>
@@ -238,7 +243,9 @@
       <workItem from="1717408059041" duration="364000" />
       <workItem from="1717579102506" duration="3000" />
       <workItem from="1717579115453" duration="1808000" />
-      <workItem from="1723530012693" duration="1619000" />
+      <workItem from="1723530012693" duration="1658000" />
+      <workItem from="1723551039668" duration="94000" />
+      <workItem from="1723619287661" duration="957000" />
     </task>
     <task id="LOCAL-00001" summary="yy">
       <created>1668186941826</created>
@@ -356,7 +363,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723531446110</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="20240813,第十题">
+      <option name="closed" value="true" />
+      <created>1723531639627</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1723531639627</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
