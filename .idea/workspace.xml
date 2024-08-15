@@ -7,9 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="505747bf-33e9-4057-afa1-db7bdb7cb983" name="Changes" comment="20240813,第十题">
-      <change afterPath="$PROJECT_DIR$/src/easy/Solution13.java" afterDir="false" />
+    <list default="true" id="505747bf-33e9-4057-afa1-db7bdb7cb983" name="Changes" comment="20240814,第十三题">
+      <change afterPath="$PROJECT_DIR$/src/medium/Solution12.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,14 +43,12 @@
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
   </component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="4009bd76-9c42-413c-8571-80c1df0e4ea3" />
-        <option name="url" value="git@github.com:/YYZY1003/leetcode.git" />
-      </UrlAndAccount>
-    </option>
-  </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:/YYZY1003/leetcode.git",
+    "accountId": "eabcd7b3-8007-4126-b958-66cb1d544d48"
+  }
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -70,6 +69,7 @@
     "Application.Solution.executor": "Debug",
     "Application.Solution10.executor": "Run",
     "Application.Solution1103.executor": "Run",
+    "Application.Solution12.executor": "Run",
     "Application.Solution13.executor": "Run",
     "Application.Solution2.executor": "Debug",
     "Application.Solution21.executor": "Run",
@@ -107,7 +107,7 @@
       <recent name="E:\JavaWeb\java\leetcode\leetcode\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution13">
+  <component name="RunManager" selected="Application.Solution12">
     <configuration name="Solution10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="greenhand.Solution10" />
       <module name="leetcode" />
@@ -134,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.Solution13" />
+    <configuration name="Solution12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="medium.Solution12" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="easy.*" />
+          <option name="PATTERN" value="medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,8 +147,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.Solution21" />
+    <configuration name="Solution13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.Solution13" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -175,13 +175,21 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution12" />
         <item itemvalue="Application.Solution13" />
         <item itemvalue="Application.Solution10" />
         <item itemvalue="Application.Solution8" />
         <item itemvalue="Application.Solution1103" />
-        <item itemvalue="Application.Solution21" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.387" />
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.387" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -245,7 +253,12 @@
       <workItem from="1717579115453" duration="1808000" />
       <workItem from="1723530012693" duration="1658000" />
       <workItem from="1723551039668" duration="94000" />
-      <workItem from="1723619287661" duration="957000" />
+      <workItem from="1723619287661" duration="1729000" />
+      <workItem from="1723635037492" duration="10000" />
+      <workItem from="1723637916232" duration="628000" />
+      <workItem from="1723649899228" duration="452000" />
+      <workItem from="1723699689989" duration="18000" />
+      <workItem from="1723708295858" duration="6496000" />
     </task>
     <task id="LOCAL-00001" summary="yy">
       <created>1668186941826</created>
@@ -371,7 +384,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723531639627</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="20240814,第十三题">
+      <option name="closed" value="true" />
+      <created>1723620398322</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1723620398322</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -405,35 +426,12 @@
     <MESSAGE value="20240531" />
     <MESSAGE value="20240603" />
     <MESSAGE value="20240813,第十题" />
-    <option name="LAST_COMMIT_MESSAGE" value="20240813,第十题" />
+    <MESSAGE value="20240814,第十三题" />
+    <option name="LAST_COMMIT_MESSAGE" value="20240814,第十三题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/easy/SearchInsert.java</url>
-          <line>20</line>
-          <properties class="easy.SearchInsert" method="searchInsert">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/easy/SearchInsert.java</url>
-          <line>52</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/easy/SearchInsert.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/easy/SearchInsert.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/easy/Solution.java</url>
           <line>26</line>
