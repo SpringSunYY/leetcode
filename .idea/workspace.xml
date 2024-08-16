@@ -7,10 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="505747bf-33e9-4057-afa1-db7bdb7cb983" name="Changes" comment="20240814,第十三题">
-      <change afterPath="$PROJECT_DIR$/src/medium/Solution12.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+    <list default="true" id="505747bf-33e9-4057-afa1-db7bdb7cb983" name="Changes" comment="20240815,第十二题">
+      <change afterPath="$PROJECT_DIR$/src/greenhand/Solution42.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/medium/Solution11.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,12 +42,12 @@
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:/YYZY1003/leetcode.git",
-    "accountId": "eabcd7b3-8007-4126-b958-66cb1d544d48"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:/YYZY1003/leetcode.git&quot;,
+    &quot;accountId&quot;: &quot;eabcd7b3-8007-4126-b958-66cb1d544d48&quot;
   }
-}]]></component>
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -68,6 +67,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.Solution.executor": "Debug",
     "Application.Solution10.executor": "Run",
+    "Application.Solution11.executor": "Run",
     "Application.Solution1103.executor": "Run",
     "Application.Solution12.executor": "Run",
     "Application.Solution13.executor": "Run",
@@ -75,6 +75,7 @@
     "Application.Solution21.executor": "Run",
     "Application.Solution3.executor": "Run",
     "Application.Solution4.executor": "Run",
+    "Application.Solution42.executor": "Run",
     "Application.Solution5.executor": "Run",
     "Application.Solution6.executor": "Run",
     "Application.Solution8.executor": "Run",
@@ -98,7 +99,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "File.Encoding",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -107,7 +108,7 @@
       <recent name="E:\JavaWeb\java\leetcode\leetcode\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution12">
+  <component name="RunManager" selected="Application.Solution42">
     <configuration name="Solution10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="greenhand.Solution10" />
       <module name="leetcode" />
@@ -121,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution1103" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.Solution1103" />
+    <configuration name="Solution11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="medium.Solution11" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="easy.*" />
+          <option name="PATTERN" value="medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,12 +161,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="medium.Solution8" />
+    <configuration name="Solution42" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="greenhand.Solution42" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="medium.*" />
+          <option name="PATTERN" value="greenhand.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution42" />
+        <item itemvalue="Application.Solution11" />
         <item itemvalue="Application.Solution12" />
         <item itemvalue="Application.Solution13" />
         <item itemvalue="Application.Solution10" />
-        <item itemvalue="Application.Solution8" />
-        <item itemvalue="Application.Solution1103" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +259,9 @@
       <workItem from="1723637916232" duration="628000" />
       <workItem from="1723649899228" duration="452000" />
       <workItem from="1723699689989" duration="18000" />
-      <workItem from="1723708295858" duration="6496000" />
+      <workItem from="1723708295858" duration="6977000" />
+      <workItem from="1723788512702" duration="616000" />
+      <workItem from="1723789143248" duration="1855000" />
     </task>
     <task id="LOCAL-00001" summary="yy">
       <created>1668186941826</created>
@@ -392,7 +395,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723620398322</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="20240815,第十二题">
+      <option name="closed" value="true" />
+      <created>1723714907822</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1723714907822</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -427,7 +438,8 @@
     <MESSAGE value="20240603" />
     <MESSAGE value="20240813,第十题" />
     <MESSAGE value="20240814,第十三题" />
-    <option name="LAST_COMMIT_MESSAGE" value="20240814,第十三题" />
+    <MESSAGE value="20240815,第十二题" />
+    <option name="LAST_COMMIT_MESSAGE" value="20240815,第十二题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
