@@ -7,11 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="505747bf-33e9-4057-afa1-db7bdb7cb983" name="Changes" comment="20240815,第十四题">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/medium/Solution15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/medium/Solution16.java" afterDir="false" />
+    <list default="true" id="505747bf-33e9-4057-afa1-db7bdb7cb983" name="Changes" comment="20240815,第十五、十六题">
+      <change afterPath="$PROJECT_DIR$/src/medium/Solution17.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,12 +41,12 @@
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:/YYZY1003/leetcode.git",
-    "accountId": "37e3d59f-45d6-492e-b7ef-fac6d9b134a6"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:/YYZY1003/leetcode.git&quot;,
+    &quot;accountId&quot;: &quot;37e3d59f-45d6-492e-b7ef-fac6d9b134a6&quot;
   }
-}]]></component>
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -79,6 +76,7 @@
     "Application.Solution14.executor": "Run",
     "Application.Solution15.executor": "Run",
     "Application.Solution16.executor": "Run",
+    "Application.Solution17.executor": "Run",
     "Application.Solution2.executor": "Debug",
     "Application.Solution21.executor": "Run",
     "Application.Solution3.executor": "Run",
@@ -116,20 +114,7 @@
       <recent name="E:\JavaWeb\java\leetcode\leetcode\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution15">
-    <configuration name="Solution11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="medium.Solution11" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Solution17">
     <configuration name="Solution14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="easy.Solution14" />
       <module name="leetcode" />
@@ -169,6 +154,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="medium.Solution17" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Solution42" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="greenhand.Solution42" />
       <module name="leetcode" />
@@ -184,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution17" />
         <item itemvalue="Application.Solution15" />
         <item itemvalue="Application.Solution16" />
         <item itemvalue="Application.Solution14" />
         <item itemvalue="Application.Solution42" />
-        <item itemvalue="Application.Solution11" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +270,8 @@
       <workItem from="1723789143248" duration="2898000" />
       <workItem from="1723884853173" duration="2128000" />
       <workItem from="1723896109616" duration="5000" />
-      <workItem from="1726314102544" duration="3250000" />
+      <workItem from="1726314102544" duration="3582000" />
+      <workItem from="1727102190391" duration="1600000" />
     </task>
     <task id="LOCAL-00001" summary="yy">
       <created>1668186941826</created>
@@ -430,7 +429,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723886422783</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="20240815,第十五、十六题">
+      <option name="closed" value="true" />
+      <created>1726317656577</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1726317656577</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -468,7 +475,8 @@
     <MESSAGE value="20240815,第十二题" />
     <MESSAGE value="20240815,第十一、四二题" />
     <MESSAGE value="20240815,第十四题" />
-    <option name="LAST_COMMIT_MESSAGE" value="20240815,第十四题" />
+    <MESSAGE value="20240815,第十五、十六题" />
+    <option name="LAST_COMMIT_MESSAGE" value="20240815,第十五、十六题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
