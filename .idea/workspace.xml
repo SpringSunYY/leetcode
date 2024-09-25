@@ -7,10 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="505747bf-33e9-4057-afa1-db7bdb7cb983" name="Changes" comment="20240815,第十五、十六题">
-      <change afterPath="$PROJECT_DIR$/src/easy/Solution20.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="505747bf-33e9-4057-afa1-db7bdb7cb983" name="Changes" comment="20240925,第20、22题" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -274,7 +271,7 @@
       <workItem from="1723896109616" duration="5000" />
       <workItem from="1726314102544" duration="3582000" />
       <workItem from="1727102190391" duration="1600000" />
-      <workItem from="1727259717140" duration="3843000" />
+      <workItem from="1727259717140" duration="4534000" />
     </task>
     <task id="LOCAL-00001" summary="yy">
       <created>1668186941826</created>
@@ -440,7 +437,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726317656577</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="20240925,第20、22题">
+      <option name="closed" value="true" />
+      <created>1727275456790</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1727275456790</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -479,7 +484,8 @@
     <MESSAGE value="20240815,第十一、四二题" />
     <MESSAGE value="20240815,第十四题" />
     <MESSAGE value="20240815,第十五、十六题" />
-    <option name="LAST_COMMIT_MESSAGE" value="20240815,第十五、十六题" />
+    <MESSAGE value="20240925,第20、22题" />
+    <option name="LAST_COMMIT_MESSAGE" value="20240925,第20、22题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
