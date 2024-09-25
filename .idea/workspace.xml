@@ -8,7 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="505747bf-33e9-4057-afa1-db7bdb7cb983" name="Changes" comment="20240815,第十五、十六题">
-      <change afterPath="$PROJECT_DIR$/src/medium/Solution17.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy/Solution20.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +78,9 @@
     "Application.Solution16.executor": "Run",
     "Application.Solution17.executor": "Run",
     "Application.Solution2.executor": "Debug",
+    "Application.Solution20.executor": "Run",
     "Application.Solution21.executor": "Run",
+    "Application.Solution22.executor": "Run",
     "Application.Solution3.executor": "Run",
     "Application.Solution4.executor": "Run",
     "Application.Solution42.executor": "Run",
@@ -114,20 +116,7 @@
       <recent name="E:\JavaWeb\java\leetcode\leetcode\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution17">
-    <configuration name="Solution14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.Solution14" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Solution22">
     <configuration name="Solution15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="medium.Solution15" />
       <module name="leetcode" />
@@ -167,12 +156,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution42" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="greenhand.Solution42" />
+    <configuration name="Solution20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.Solution20" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="greenhand.*" />
+          <option name="PATTERN" value="easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution22" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.Solution22" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution22" />
+        <item itemvalue="Application.Solution20" />
         <item itemvalue="Application.Solution17" />
         <item itemvalue="Application.Solution15" />
         <item itemvalue="Application.Solution16" />
-        <item itemvalue="Application.Solution14" />
-        <item itemvalue="Application.Solution42" />
       </list>
     </recent_temporary>
   </component>
@@ -272,6 +274,7 @@
       <workItem from="1723896109616" duration="5000" />
       <workItem from="1726314102544" duration="3582000" />
       <workItem from="1727102190391" duration="1600000" />
+      <workItem from="1727259717140" duration="3843000" />
     </task>
     <task id="LOCAL-00001" summary="yy">
       <created>1668186941826</created>
