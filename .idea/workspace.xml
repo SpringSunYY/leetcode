@@ -7,7 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="505747bf-33e9-4057-afa1-db7bdb7cb983" name="Changes" comment="20240925,第20、22题" />
+    <list default="true" id="505747bf-33e9-4057-afa1-db7bdb7cb983" name="Changes" comment="20240925,第20、22题">
+      <change afterPath="$PROJECT_DIR$/src/easy/Solution118.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,65 +64,65 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.Solution.executor": "Debug",
-    "Application.Solution10.executor": "Run",
-    "Application.Solution11.executor": "Run",
-    "Application.Solution1103.executor": "Run",
-    "Application.Solution12.executor": "Run",
-    "Application.Solution13.executor": "Run",
-    "Application.Solution14.executor": "Run",
-    "Application.Solution15.executor": "Run",
-    "Application.Solution16.executor": "Run",
-    "Application.Solution17.executor": "Run",
-    "Application.Solution2.executor": "Debug",
-    "Application.Solution20.executor": "Run",
-    "Application.Solution21.executor": "Run",
-    "Application.Solution22.executor": "Run",
-    "Application.Solution3.executor": "Run",
-    "Application.Solution4.executor": "Run",
-    "Application.Solution42.executor": "Run",
-    "Application.Solution5.executor": "Run",
-    "Application.Solution6.executor": "Run",
-    "Application.Solution8.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "G:/商品/Java/SpringBoot/gyy240601/springboot095学生宿舍信息的系统/springboot68ozj",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "ai.codegeex.plugin.settings.ApplicationConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Solution.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Solution10.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution11.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution1103.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution12.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution13.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution14.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution15.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution16.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution17.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution2.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Solution20.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution21.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution22.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution42.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution6.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution8.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/商品/Java/SpringBoot/gyy240601/springboot095学生宿舍信息的系统/springboot68ozj&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;ai.codegeex.plugin.settings.ApplicationConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\JavaWeb\java\leetcode\leetcode\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution22">
-    <configuration name="Solution15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="medium.Solution15" />
+  <component name="RunManager" selected="Application.Solution118">
+    <configuration name="Solution118" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.Solution118" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="medium.*" />
+          <option name="PATTERN" value="easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,8 +130,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="medium.Solution16" />
+    <configuration name="Solution15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="medium.Solution15" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -181,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution118" />
         <item itemvalue="Application.Solution22" />
         <item itemvalue="Application.Solution20" />
         <item itemvalue="Application.Solution17" />
         <item itemvalue="Application.Solution15" />
-        <item itemvalue="Application.Solution16" />
       </list>
     </recent_temporary>
   </component>
@@ -271,7 +274,8 @@
       <workItem from="1723896109616" duration="5000" />
       <workItem from="1726314102544" duration="3582000" />
       <workItem from="1727102190391" duration="1600000" />
-      <workItem from="1727259717140" duration="4534000" />
+      <workItem from="1727259717140" duration="5748000" />
+      <workItem from="1727349715405" duration="329000" />
     </task>
     <task id="LOCAL-00001" summary="yy">
       <created>1668186941826</created>
@@ -445,7 +449,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727275456790</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="20240925,第20、22题">
+      <option name="closed" value="true" />
+      <created>1727275465885</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1727275465885</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
