@@ -53,6 +53,5 @@ public class Solution67 {
         ans.append(ca == 1 ? ca : "");
         // 将ans反转，并转换为十进制字符串返回
         return ans.reverse().toString();
-
     }
 }
