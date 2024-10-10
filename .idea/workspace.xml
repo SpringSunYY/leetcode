@@ -7,9 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="505747bf-33e9-4057-afa1-db7bdb7cb983" name="Changes" comment="20241007,48-翻转矩阵">
-      <change afterPath="$PROJECT_DIR$/src/medium/Solution59.java" afterDir="false" />
+    <list default="true" id="505747bf-33e9-4057-afa1-db7bdb7cb983" name="Changes" comment="20241007,59-螺旋矩阵">
+      <change afterPath="$PROJECT_DIR$/src/medium/Solution54.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/medium/Solution48.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/medium/Solution48.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +90,7 @@
     "Application.Solution46.executor": "Run",
     "Application.Solution48.executor": "Run",
     "Application.Solution5.executor": "Run",
+    "Application.Solution54.executor": "Run",
     "Application.Solution59.executor": "Run",
     "Application.Solution6.executor": "Run",
     "Application.Solution67.executor": "Debug",
@@ -122,7 +124,7 @@
       <recent name="E:\JavaWeb\java\leetcode\leetcode\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution59">
+  <component name="RunManager" selected="Application.Solution54">
     <configuration name="Solution46 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="medium.Solution46" />
       <module name="leetcode" />
@@ -162,6 +164,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution54" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="medium.Solution54" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Solution59" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="medium.Solution59" />
       <module name="leetcode" />
@@ -175,26 +190,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution67" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.Solution67" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution54" />
         <item itemvalue="Application.Solution59" />
         <item itemvalue="Application.Solution48" />
         <item itemvalue="Application.Solution46" />
         <item itemvalue="Application.Solution46 (1)" />
-        <item itemvalue="Application.Solution67" />
       </list>
     </recent_temporary>
   </component>
@@ -287,7 +289,8 @@
       <workItem from="1727610208493" duration="821000" />
       <workItem from="1727694733284" duration="3673000" />
       <workItem from="1728299801471" duration="1641000" />
-      <workItem from="1728470507812" duration="3422000" />
+      <workItem from="1728470507812" duration="4328000" />
+      <workItem from="1728555310136" duration="5373000" />
     </task>
     <task id="LOCAL-00001" summary="yy">
       <created>1668186941826</created>
@@ -501,7 +504,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728301352306</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="20241007,59-螺旋矩阵">
+      <option name="closed" value="true" />
+      <created>1728474850269</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1728474850269</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -520,7 +531,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="yy" />
     <MESSAGE value="20221114 20点08分" />
     <MESSAGE value="20221115 20点44分" />
     <MESSAGE value="20221116 16点51分" />
@@ -545,7 +555,8 @@
     <MESSAGE value="20240928,第67题--杨辉三角" />
     <MESSAGE value="20240929,283-移动0" />
     <MESSAGE value="20241007,48-翻转矩阵" />
-    <option name="LAST_COMMIT_MESSAGE" value="20241007,48-翻转矩阵" />
+    <MESSAGE value="20241007,59-螺旋矩阵" />
+    <option name="LAST_COMMIT_MESSAGE" value="20241007,59-螺旋矩阵" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

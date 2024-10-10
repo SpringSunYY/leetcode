@@ -19,25 +19,37 @@ public class Solution48 {
         solution48.rotate(new int[][]{new int[]{1, 2, 3}, new int[]{4, 5, 6}, new int[]{7, 8, 9}});
     }
 
+    // 定义一个旋转函数，参数为一个二维数组matrix
     public void rotate(int[][] matrix) {
+        // 创建一个ArrayList<Integer>，用于临时存储旋转后的元素
         ArrayList<Integer> tempList = new ArrayList<>();
+
+        // 从二维数组的右下角开始遍历，将元素添加到tempList中
         for (int i = matrix.length - 1; i >= 0; i--) {
             for (int i1 = 0; i1 <= matrix[i].length - 1; i1++) {
                 tempList.add(matrix[i][i1]);
             }
         }
+
+        // 初始化当前要放置的元素在二维数组中的行号和列号
         int currentIndex = 0;
         int numLength = matrix[0].length;
         int current = 0;
+
+        // 从tempList中取出元素，按照顺时针旋转90度的顺序放置到二维数组中
         for (int i = 0; i < tempList.size(); i++) {
             matrix[current][currentIndex] = tempList.get(i);
             current++;
+            // 如果当前要放置的元素已经到达二维数组的最后一列，那么将current重置为0，并将currentIndex加1
             if (current >= numLength) {
                 current = 0;
                 currentIndex++;
             }
         }
     }
+
+
+
 
     public void rotate2(int[][] matrix) {
         int add = 0; // 用于记录每次旋转的元素个数

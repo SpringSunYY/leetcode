@@ -29,7 +29,7 @@ public class Solution59 {
         while (value <= n * n) {
             //当前顶层从左到右
             for (int i = l; i <= r; i++) {
-                result[l][i] = value++;
+                result[t][i] = value++;
             }
             //当前顶层完成，+1
             t++;
