@@ -7,9 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="505747bf-33e9-4057-afa1-db7bdb7cb983" name="Changes" comment="20241010,54-螺旋矩阵">
-      <change afterPath="$PROJECT_DIR$/src/easy/Solution100.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easy/Solution110.java" afterDir="false" />
+    <list default="true" id="505747bf-33e9-4057-afa1-db7bdb7cb983" name="Changes" comment="20241013,110、100-相同的树、平衡二叉树，看不懂递归啊">
+      <change afterPath="$PROJECT_DIR$/src/easy/Solution119.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,6 +73,7 @@
     "Application.Solution110.executor": "Debug",
     "Application.Solution1103.executor": "Run",
     "Application.Solution118.executor": "Run",
+    "Application.Solution119.executor": "Run",
     "Application.Solution12.executor": "Run",
     "Application.Solution13.executor": "Run",
     "Application.Solution14.executor": "Run",
@@ -116,7 +116,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "ai.codegeex.plugin.settings.ApplicationConfigurable",
+    "settings.editor.selected.configurable": "cn.yiiguxing.plugin.translate",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -125,7 +125,7 @@
       <recent name="E:\JavaWeb\java\leetcode\leetcode\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution110">
+  <component name="RunManager" selected="Application.Solution119">
     <configuration name="Solution110" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="easy.Solution110" />
       <module name="leetcode" />
@@ -139,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution46" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="medium.Solution46" />
+    <configuration name="Solution119" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.Solution119" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="medium.*" />
+          <option name="PATTERN" value="easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution119" />
         <item itemvalue="Application.Solution110" />
         <item itemvalue="Application.Solution54" />
         <item itemvalue="Application.Solution59" />
         <item itemvalue="Application.Solution48" />
-        <item itemvalue="Application.Solution46" />
       </list>
     </recent_temporary>
   </component>
@@ -292,7 +292,8 @@
       <workItem from="1728299801471" duration="1641000" />
       <workItem from="1728470507812" duration="4328000" />
       <workItem from="1728555310136" duration="6363000" />
-      <workItem from="1728816039568" duration="2392000" />
+      <workItem from="1728816039568" duration="3243000" />
+      <workItem from="1728903698175" duration="1613000" />
     </task>
     <task id="LOCAL-00001" summary="yy">
       <created>1668186941826</created>
@@ -522,7 +523,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728560942921</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="20241013,110、100-相同的树、平衡二叉树，看不懂递归啊">
+      <option name="closed" value="true" />
+      <created>1728818654720</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1728818654720</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -541,7 +550,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="20221115 20点44分" />
     <MESSAGE value="20221116 16点51分" />
     <MESSAGE value="20221116 19点49分" />
     <MESSAGE value="20221117 20点18分" />
@@ -566,7 +574,8 @@
     <MESSAGE value="20241007,48-翻转矩阵" />
     <MESSAGE value="20241007,59-螺旋矩阵" />
     <MESSAGE value="20241010,54-螺旋矩阵" />
-    <option name="LAST_COMMIT_MESSAGE" value="20241010,54-螺旋矩阵" />
+    <MESSAGE value="20241013,110、100-相同的树、平衡二叉树，看不懂递归啊" />
+    <option name="LAST_COMMIT_MESSAGE" value="20241013,110、100-相同的树、平衡二叉树，看不懂递归啊" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -580,21 +589,6 @@
           <url>file://$PROJECT_DIR$/src/easy/Solution1103.java</url>
           <line>65</line>
           <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/easy/Solution110.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/easy/Solution110.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/easy/Solution110.java</url>
-          <line>49</line>
-          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
