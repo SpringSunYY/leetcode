@@ -7,8 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="505747bf-33e9-4057-afa1-db7bdb7cb983" name="Changes" comment="20241209,69:x的平方根">
-      <change afterPath="$PROJECT_DIR$/src/medium/Solution62.java" afterDir="false" />
+    <list default="true" id="505747bf-33e9-4057-afa1-db7bdb7cb983" name="Changes" comment="20241210,62:不同路径">
+      <change afterPath="$PROJECT_DIR$/src/easy/Solution104.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -121,6 +121,7 @@
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "cn.yiiguxing.plugin.translate",
     "vue.rearranger.settings.migration": "true",
+    "应用程序.Solution104.executor": "Run",
     "应用程序.Solution62.executor": "Run",
     "应用程序.Solution63.executor": "Run",
     "应用程序.Solution69.executor": "Run"
@@ -131,9 +132,9 @@
       <recent name="E:\JavaWeb\java\leetcode\leetcode\src" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.Solution62">
-    <configuration name="Solution169" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.Solution169" />
+  <component name="RunManager" selected="应用程序.Solution104">
+    <configuration name="Solution104" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.Solution104" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -199,6 +200,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.Solution104" />
         <item itemvalue="应用程序.Solution62" />
         <item itemvalue="应用程序.Solution63" />
         <item itemvalue="应用程序.Solution69" />
@@ -305,7 +307,8 @@
       <workItem from="1730367015275" duration="841000" />
       <workItem from="1733741650185" duration="1134000" />
       <workItem from="1733742804465" duration="8000" />
-      <workItem from="1733828720045" duration="349000" />
+      <workItem from="1733828720045" duration="1639000" />
+      <workItem from="1733913368819" duration="304000" />
     </task>
     <task id="LOCAL-00001" summary="yy">
       <created>1668186941826</created>
@@ -575,7 +578,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733742735247</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="20241210,62:不同路径">
+      <option name="closed" value="true" />
+      <created>1733829158962</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1733829158962</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -594,7 +605,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="20221119 20点00分" />
     <MESSAGE value="20221120 20点30分" />
     <MESSAGE value="20221122 20点30分" />
     <MESSAGE value="20221125 20点17分" />
@@ -619,7 +629,8 @@
     <MESSAGE value="20241015,400:找位数，多看规律" />
     <MESSAGE value="20241016,50:阶层" />
     <MESSAGE value="20241209,69:x的平方根" />
-    <option name="LAST_COMMIT_MESSAGE" value="20241209,69:x的平方根" />
+    <MESSAGE value="20241210,62:不同路径" />
+    <option name="LAST_COMMIT_MESSAGE" value="20241210,62:不同路径" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
